@@ -1,0 +1,65 @@
+.token{
+    margin-left: 22.5vw;
+    margin-top: 50px;
+}
+
+.token-container{
+  width: 75vw;
+  height: 45vh;
+  border: 0.5px rgba(128, 128, 128, 0.336) solid;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.token-title{
+    padding: 15px;
+    border-bottom: 0.5px rgba(128, 128, 128, 0.336) solid;
+    font-family: sans-serif;
+    color: rgb(53, 7, 95);
+}
+
+.token-desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 0.5px rgba(128, 128, 128, 0.336) solid;
+}
+
+.desc-text{
+    max-width: 55%;
+    font-family: sans-serif;
+    color: rgb(73, 12, 131);
+}
+
+.desc-text h1{
+    font-size: 24px;
+}
+
+.desc-text p{
+    font-size: 13px;
+}
+
+.desc-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.desc-button button{
+   border-radius: 28px;
+   background-color: blueviolet;
+   padding: 13px 40px 13px 40px;
+   border: none;
+   display: flex;
+   justify-content: end;
+   color: aliceblue;
+   margin-bottom: 5px;
+   font-size: 15px;
+   font-weight: 700;
+}
+
+.desc-button span{
+    color: rgb(73, 12, 131);
+}

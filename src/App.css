@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgba(39, 7, 46, 0.075);
+}
+
+.connect-btn{
+  margin-left: 50px;
+}
+
+.sidebar{
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  width: 20vw;
+  height: 100vh;
+  border-right: 0.5px rgba(128, 128, 128, 0.096) solid;
+  text-align: center;
+  color: rgb(73, 12, 131);
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-left: 20vw;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.title{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.connect{
+  background-color: rgba(75, 29, 84);
+  width: 248px;
+  border: 4px solid rgb(172, 11, 172);
+  color: aliceblue;
+  font-weight: bold;
+  margin-bottom: 10px;
+  height: 44px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 20vh;
+  padding: 15px;
+}
+
+.list ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  list-style: none;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.p15{
+  padding: 15px;
+}
+
+
+a{
+  text-decoration: none;
+  color: rgb(73, 12, 131);
+}
+
+.list ul li{
+  width: 100%;
+  padding-left: 30px;
+}
+
+
+.list ul li:hover {
+  background-color: rgba(39, 7, 46, 0.075);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.contact{
+  margin-top: 33vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.logo{
+  margin-top: 1vh; 
+}
+
+.logo i{
+ margin: 0px 10px 0px 10px;
+}
+
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  border-top: 0.5px rgba(128, 128, 128, 0.178) solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footer img{
+  height: 40px;
+  width: 30%;
+
+}
